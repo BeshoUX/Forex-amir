@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 913px;
+    background-color: #131722;
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    background-color: rgba(95, 4, 4, 0.411);
+    padding-top: 10px;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+
+.container div:hover {
+    transform: scale(1.1);
+}
+
+.container div a {
+    text-decoration: none;
+}
+
+.container div a h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+}
